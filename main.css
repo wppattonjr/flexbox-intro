@@ -5,6 +5,7 @@
 body {
   background-color: lightgray;
 }
+/* NAVIGATION */
 
 .navigation {
   display: flex;
@@ -14,14 +15,12 @@ body {
 }
 
 .logo {
-    padding: 1em;
-    text-transform: uppercase;
-
-  
+  padding: 1em;
+  text-transform: uppercase;
 }
 
 .logo a {
-    color: rgb(red, green, blue)
+  color: rgb(red, green, blue);
 }
 
 ul {
@@ -32,39 +31,42 @@ ul {
 
 .logo a,
 ul a {
-    text-decoration: none;
-    letter-spacing: .45em;
+  text-decoration: none;
+  letter-spacing: 0.45em;
 }
 
 ul a {
-    display: block;
-    padding: 1em;
-    color: white;
+  display: block;
+  padding: 1em;
+  color: white;
 }
 
-ul a:hover{
-    background: #00ace6;
+ul a:hover {
+  background: #00ace6;
 }
+
+/* DOGS */
 
 .dogs {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .dogs img {
-    width: 200px;
-    margin: 20px;
+  width: 200px;
+  margin: 20px;
 }
 
-.cats {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+/* CATS */
 
+.cats {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .cats img {
-    width: 50%;
-    margin: 5%;
+  width: 250px;
+  margin: 25px;
 }
